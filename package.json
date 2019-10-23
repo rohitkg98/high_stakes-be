@@ -1,0 +1,28 @@
+{
+  "name": "high_stakes-be",
+  "version": "1.0.0",
+  "description": "Backend for Issue Tracking Dashboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc-watch --onSuccess \"node ./dist/server.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohitkg98/high_stakes-be.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohitkg98/high_stakes-be/issues"
+  },
+  "homepage": "https://github.com/rohitkg98/high_stakes-be#readme",
+  "dependencies": {
+    "@types/express": "^4.17.1",
+    "@types/node": "^12.11.5",
+    "express": "^4.17.1",
+    "tsc-watch": "^4.0.0",
+    "typescript": "^3.6.4"
+  }
+}
